@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="styles/rockpaper2.css">
+  </head>
+  <body>
+    <p>Rock Paper Scissors</p>
+    <button class="b1 rock"><img class="r" src="rock.jpeg"</button>
+
+    <button class="b2 paper"><img class="p" src="paper.jpeg"</button>
+
+    <button class="b3 scissor"><img class="s" src="scissors.jpeg"</button>
+    <p class="js-result">
+        
+    </p>
+    <p class="js-moves">
+
+    </p>
+    <p class="js-score">
+
+    </p>
+    <button onclick="
+    score.losses=0;
+    score.wins=0;
+    score.ties=0
+    updateresult();
+    updatescore();
+    updatemoves();
+    " class="reset">
+        RESET SCORE
+    </button>
+    <button class="auto" onclick="autoplay();">
+        AUTO PLAY
+    </button>
+    <script src="scripts/rockpaper.js">
+        
+    </script>
+  </body>
+</html>
